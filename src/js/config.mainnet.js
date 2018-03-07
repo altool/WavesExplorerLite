@@ -2,19 +2,19 @@
     'use strict';
 
     angular.module('web').constant('appConfig', {
-        apiDomain: 'https://nodes.wavesnodes.com',
+        apiDomain: 'https://privatenode.blackturtle.eu',
         blockchainName: 'Mainnet',
-        title: 'Waves Explorer',
+        title: 'TurtleNode Private Network',
         nodes: [{
-            url: 'https://nodes.wavesnodes.com',
+            url: 'https://privatenode.blackturtle.eu',
             maintainer: 'Waves'
         }],
         peerExplorer: {
-            url: 'https://testnet.wavesexplorer.com',
-            title: 'TESTNET Explorer'
+            url: 'https://privatenode.blackturtle.eu',
+            title: 'Public private network node'
         },
         wallet: {
-            url: 'https://waveswallet.io',
+            url: 'https://privatenetwork.blackturtle.eu/',
             title: 'Wallet'
         }
     });

@@ -4,8 +4,8 @@
     angular.module('web').filter('assetunits', function() {
         return function(input, decimals) {
             if (input == null) return null;
-            var TurtleNode = input / Math.pow(10, decimals);
-            var str = addCommas(TurtleNode.toFixed(decimals));
+            var waves = input / Math.pow(10, decimals);
+            var str = addCommas(waves.toFixed(decimals));
 
             // remove trailing zeros
             var parts = str.split('.');

@@ -46,7 +46,7 @@
 
         function postProcessPaymentTransaction(transaction) {
             processFee(transaction);
-            processAmount(transaction, transaction.amount, Currency.TurtleNode.id);
+            processAmount(transaction, transaction.amount, Currency.WAVES.id);
 
             return transaction;
         }
@@ -93,7 +93,7 @@
 
         function postProcessLeasingTransaction(transaction) {
             processFee(transaction);
-            processAmount(transaction, transaction.amount, Currency.TurtleNode.id);
+            processAmount(transaction, transaction.amount, Currency.WAVES.id);
 
             return transaction;
         }
@@ -149,7 +149,7 @@
         }
 
         function processAmount(transaction, rawAmount, assetId) {
-            var currency = Currency.TurtleNode;
+            var currency = Currency.WAVES;
             if (assetId) {
                 if (!Currency.isCached(assetId)) {
                     txToUpdate.push(transaction);
@@ -168,7 +168,7 @@
         }
 
         function processFee(transaction) {
-            var currency = Currency.TurtleNode;
+            var currency = Currency.WAVES;
             var assetId = transaction.feeAsset;
             if (assetId) {
                 if (!Currency.isCached(assetId)) {

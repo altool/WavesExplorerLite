@@ -9986,7 +9986,7 @@ tr.detail-row > td {
 .widget-color-dark > .widget-header > .widget-toolbar > [data-action="settings"],
 .widget-box > .widget-header > .widget-toolbar > .widget-menu > [data-action="settings"],
 .widget-color-dark > .widget-header > .widget-toolbar > .widget-menu > [data-action="settings"] {
-  color: #99CADB;
+  color: #9ae59a;
 }
 .widget-box > .widget-header > .widget-toolbar > [data-action="reload"],
 .widget-color-dark > .widget-header > .widget-toolbar > [data-action="reload"],
@@ -10014,22 +10014,22 @@ tr.detail-row > td {
   border-color: #307ECC;
 }
 .widget-color-blue > .widget-header {
-  background: #307ECC;
-  border-color: #307ECC;
+  background: #258e25;
+  border-color: #258e25;
 }
 .widget-color-blue2 {
-  border-color: #5090C1;
+  border-color: #258e25;
 }
 .widget-color-blue2 > .widget-header {
-  background: #5090C1;
-  border-color: #5090C1;
+  background: #258e25;
+  border-color: #258e25;
 }
 .widget-color-blue3 {
-  border-color: #6379AA;
+  border-color: #258e25;
 }
 .widget-color-blue3 > .widget-header {
   background: #6379AA;
-  border-color: #6379AA;
+  border-color: #258e25;
 }
 .widget-color-green {
   border-color: #82AF6F;
@@ -10136,7 +10136,7 @@ tr.detail-row > td {
 }
 [class*="widget-color-"] > .widget-header > .widget-toolbar > [data-action="settings"],
 [class*="widget-color-"] > .widget-header > .widget-toolbar > .widget-menu > [data-action="settings"] {
-  color: #D3E4ED;
+  color: #9ae59a;
 }
 [class*="widget-color-"] > .widget-header > .widget-toolbar > [data-action="reload"],
 [class*="widget-color-"] > .widget-header > .widget-toolbar > .widget-menu > [data-action="reload"] {
@@ -10156,7 +10156,7 @@ tr.detail-row > td {
 }
 .widget-color-orange > .widget-header > .widget-toolbar > [data-action="settings"],
 .widget-color-orange > .widget-header > .widget-toolbar > .widget-menu > [data-action="settings"] {
-  color: #559AAB;
+  color: #9ae59a;
 }
 .widget-color-orange > .widget-header > .widget-toolbar > [data-action="reload"],
 .widget-color-orange > .widget-header > .widget-toolbar > .widget-menu > [data-action="reload"] {

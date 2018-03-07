@@ -33,5 +33,6 @@
 
             nav.wallet = config.wallet;
             nav.peerExplorer = config.peerExplorer;
+            nav.website = config.website;
         }]);
 })();

@@ -16,7 +16,7 @@ app.set('port', process.env.PORT || 3000);
 // app.engine('html', require('ejs').renderFile);
 
 // express/connect middleware
-app.use(favicon(basedir + '/favicon.ico'));
+app.use(favicon(basedir + '/icons/logo-spin.svg'));
 app.use(morgan('dev'));
 
 // serve up static assets

@@ -3,7 +3,7 @@
 
     angular.module('web').constant('appConfig', {
         apiDomain: 'https://privatenode.blackturtle.eu',
-        blockchainName: 'Mainnet',
+        blockchainName: 'TurtleNode Private Network',
         title: 'TurtleNode Private Network',
         nodes: [{
             url: 'https://privatenode.blackturtle.eu',
@@ -11,7 +11,11 @@
         }],
         peerExplorer: {
             url: 'https://privatenode.blackturtle.eu',
-            title: 'Public private network node'
+            title: 'Public Node'
+        },
+        website: {
+            url: 'https://waves.blackturtle.eu',
+            title: 'TurtleNode website'
         },
         wallet: {
             url: 'https://privatenetwork.blackturtle.eu/',

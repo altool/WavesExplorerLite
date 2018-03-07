@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="" />
-    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
-    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link href="/icons/logo-spin.svg" type="image/x-icon" rel="icon" />
+    <link href="/icons/logo-spin.svg" type="image/x-icon" rel="shortcut icon" />
     <title>TurtleNode private network explorer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
@@ -38,8 +38,8 @@
                             <i class="glyphicon glyphicon-certificate"></i> Misc <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-light-blue dropdown-caret" role="menu" uib-dropdown-menu>
-                            <li><a ng-href="{{::nav.peerExplorer.url}}">{{::nav.peerExplorer.title}}</a></li>
-                            <li><a ng-href="{{::nav.website.url}}">{{::nav.website.title}}</a></li>
+                            <li><a ng-href="{{::nav.peerExplorer.url}}" target="_blank">{{::nav.peerExplorer.title}}</a></li>
+                            <li><a ng-href="{{::nav.website.url}}" target="_blank">{{::nav.website.title}}</a></li>
                         </ul>
                     </li>
                 </ul>

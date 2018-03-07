@@ -7,7 +7,7 @@
         title: 'TurtleNode Private Network',
         nodes: [{
             url: 'https://privatenode.blackturtle.eu',
-            maintainer: 'Waves'
+            maintainer: 'BlackTurtle'
         }],
         peerExplorer: {
             url: 'https://privatenode.blackturtle.eu',

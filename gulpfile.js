@@ -129,7 +129,7 @@ gulp.task('copy-fonts', ['clean'], function () {
 
 gulp.task('copy-icons', ['clean'], function () {
     return series(
-        copyFiles(config.baseDir + '/favicon.ico', config.buildDirectory),
+        copyFiles(config.baseDir + '/icons/logo-spin.svg', config.buildDirectory),
         copyFiles(config.icons, config.buildDirectory + '/icons')
     );
 });

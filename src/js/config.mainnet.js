@@ -26,7 +26,7 @@
     angular.module('web').constant('constants.network', {
         NETWORK_NAME: 'mainnet', // 'devnet', 'testnet', 'mainnet'
         ADDRESS_VERSION: 1,
-        NETWORK_CODE: 'U',
+        NETWORK_CODE: 'L',
         INITIAL_NONCE: 0
     });
 })();

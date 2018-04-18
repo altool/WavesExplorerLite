@@ -3,15 +3,18 @@
 
     angular.module('web').constant('appConfig', {
         apiDomain: 'https://privatenode.blackturtle.eu',
-        blockchainName: 'TurtleNode Private Network',
-        title: 'TurtleNode Private Network',
+        blockchainName: 'TurtleNetwork',
+        title: 'TurtleNetwork',
         nodes: [{
             url: 'https://privatenode.blackturtle.eu',
-            maintainer: 'BlackTurtle'
+            maintainer: 'https://t.me/blackturtlenode'
+        },{
+            url: 'https://privatenode2.blackturtle.eu',
+            maintainer: 'https://t.me/blackturtlenode'
         }],
         peerExplorer: {
-            url: 'https://privatenode.blackturtle.eu',
-            title: 'Public Node'
+            url: 'https://gateway.blackturtle.eu',
+            title: 'Gateway'
         },
         website: {
             url: 'https://waves.blackturtle.eu',

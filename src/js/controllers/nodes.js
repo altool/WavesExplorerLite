@@ -31,6 +31,24 @@
                 .catch(function () {
                     node.baseTarget = "error";
                 });
+                node.generating = "error";
+                $http.get(apiProvider(node.url).address.addresses).then(function (response) {
+                     node.address = response.data[response.data.length-1];
+                    $http.get(apiProvider(node.url).address.balanceDetails(node.address)).then(function (response) {
+                        node.generating = response.data.generating;
+                        node.effective = parseInt(response.data.effective)/100000000;
+                    })
+                    .catch(function () {
+                        node.generating = "error";
+                        node.effective = "error";
+                    });
+                })
+                .catch(function () {
+                    node.address = "error";
+                    node.generating = "error";
+                    node.effective = "error";
+                });
+
 
                 $http.get(apiProvider(node.url).transactions.utxSize).then(function (response) {
                     node.utxSize = response.data.size;

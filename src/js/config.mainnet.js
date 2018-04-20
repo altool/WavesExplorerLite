@@ -11,6 +11,9 @@
         },{
             url: 'https://privatenode2.blackturtle.eu',
             maintainer: 'https://t.me/blackturtlenode'
+        },{
+            url: 'http://173.212.247.37:8000',
+            maintainer: 'https://t.me/wavestipping'
         }],
         peerExplorer: {
             url: 'https://gateway.blackturtle.eu',

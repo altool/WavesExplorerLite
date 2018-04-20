@@ -48,7 +48,8 @@
                 },
                 balanceDetails: function (address) {
                     return url + '/addresses/balance/details/' + address;
-                }
+                },
+                addresses: url + '/addresses'
             },
             aliases: {
                 getAddress: function (alias) {

@@ -14,9 +14,6 @@
         },{
             url: 'https://ninjastar.ninjaturtle.co.za',
             maintainer: 'https://t.me/gordobtel'
-        },{
-            url: 'http://173.212.247.37:8000',
-            maintainer: 'https://t.me/wavestipping'
         }],
         peerExplorer: {
             url: 'https://gateway.blackturtle.eu',

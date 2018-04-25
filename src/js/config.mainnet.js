@@ -14,7 +14,11 @@
         },{
             url: 'https://ninjastar.ninjaturtle.co.za',
             maintainer: 'https://twitter.com/gordobsa'
-        }],
+        },{
+            url: 'https://turtlenode.dsalab.de',
+            maintainer: 'Hawky'
+        }
+        ],
         peerExplorer: {
             url: 'https://gateway.blackturtle.eu',
             title: 'Gateway'

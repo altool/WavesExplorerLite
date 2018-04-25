@@ -12,6 +12,9 @@
             url: 'https://privatenode2.blackturtle.eu',
             maintainer: 'https://t.me/blackturtlenode'
         },{
+            url: 'https://ninjastar.ninjaturtle.co.za',
+            maintainer: 'https://t.me/gordobtel'
+        },{
             url: 'http://173.212.247.37:8000',
             maintainer: 'https://t.me/wavestipping'
         }],
@@ -24,7 +27,7 @@
             title: 'TurtleNode website'
         },
         wallet: {
-            url: 'https://privatenetwork.blackturtle.eu/',
+            url: 'https://turtlenetwork.blackturtle.eu/',
             title: 'Wallet'
         }
     });

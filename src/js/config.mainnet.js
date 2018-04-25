@@ -13,7 +13,7 @@
             maintainer: 'https://t.me/blackturtlenode'
         },{
             url: 'https://ninjastar.ninjaturtle.co.za',
-            maintainer: 'https://t.me/gordobtel'
+            maintainer: 'https://twitter.com/gordobsa'
         }],
         peerExplorer: {
             url: 'https://gateway.blackturtle.eu',

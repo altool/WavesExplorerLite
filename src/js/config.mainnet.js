@@ -20,6 +20,9 @@
         },{
             url: 'https://maplenode.net',
             maintainer: 'MapleNode'
+        },{
+            url: 'https://giznode.thegremlins.net',
+            maintainer: 'G1zm0'
         }
         ],
         gatewayTN: {

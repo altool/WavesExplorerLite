@@ -34,5 +34,8 @@
             nav.wallet = config.wallet;
             nav.peerExplorer = config.peerExplorer;
             nav.website = config.website;
+            nav.gatewayLTC = config.gatewayLTC;
+            nav.gatewayTN = config.gatewayTN;
+            nav.nodeCheck = config.nodeCheck;
         }]);
 })();

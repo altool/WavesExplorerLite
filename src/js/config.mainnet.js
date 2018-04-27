@@ -17,11 +17,18 @@
         },{
             url: 'https://turtlenode.dsalab.de',
             maintainer: 'Hawky'
+        },{
+            url: 'https://maplenode.net',
+            maintainer: 'MapleNode'
         }
         ],
-        peerExplorer: {
+        gatewayTN: {
             url: 'https://gateway.blackturtle.eu',
-            title: 'Gateway'
+            title: 'Gateway TurtleNode-TurtleNetwork'
+        },
+        gatewayLTC: {
+            url: 'https://litecoingw.blackturtle.eu',
+            title: 'Gateway LTC-tLTC'
         },
         website: {
             url: 'https://waves.blackturtle.eu',
@@ -30,6 +37,10 @@
         wallet: {
             url: 'https://turtlenetwork.blackturtle.eu/',
             title: 'Wallet'
+        },
+        nodeCheck:{
+            url: ' https://turtlenode.dsalab.de/nodechecker/',
+            title: 'Node checker'
         }
     });
 

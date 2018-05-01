@@ -33,6 +33,10 @@
             url: 'https://litecoingw.blackturtle.eu',
             title: 'Gateway LTC-tLTC'
         },
+        gatewayWAVES: {
+            url: 'https://wavesgateway.blackturtle.eu',
+            title: 'Gateway WAVES-tWAVES'
+        },
         website: {
             url: 'https://waves.blackturtle.eu',
             title: 'TurtleNode website'
@@ -42,8 +46,12 @@
             title: 'Wallet'
         },
         nodeCheck:{
-            url: ' https://turtlenode.dsalab.de/nodechecker/',
+            url: 'https://turtlenode.dsalab.de/nodechecker/',
             title: 'Node checker'
+        },
+        pywaves:{
+            url: 'http://dev.pywaves.org/TN/',
+            title: 'Pywaves for TN'
         }
     });
 

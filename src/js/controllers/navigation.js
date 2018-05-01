@@ -37,5 +37,7 @@
             nav.gatewayLTC = config.gatewayLTC;
             nav.gatewayTN = config.gatewayTN;
             nav.nodeCheck = config.nodeCheck;
+            nav.gatewayWAVES = config.gatewayWAVES;
+            nav.pywaves = config.pywaves;
         }]);
 })();
